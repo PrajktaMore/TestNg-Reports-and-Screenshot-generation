@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" total="2" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="15238" started-at="2021-11-12T06:00:35Z" finished-at="2021-11-12T06:00:51Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="15238" started-at="2021-11-12T06:00:35Z" finished-at="2021-11-12T06:00:51Z">
+      <class name="testNgListenerExtentReportScreenshot.FreeCRMTest">
+        <test-method status="PASS" signature="setExtent()[pri:0, instance:testNgListenerExtentReportScreenshot.FreeCRMTest@28feb3fa]" name="setExtent" is-config="true" duration-ms="159" started-at="2021-11-12T11:30:35Z" finished-at="2021-11-12T11:30:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setExtent -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:testNgListenerExtentReportScreenshot.FreeCRMTest@28feb3fa]" name="setup" is-config="true" duration-ms="4099" started-at="2021-11-12T11:30:35Z" finished-at="2021-11-12T11:30:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="LoginByfacebook()[pri:0, instance:testNgListenerExtentReportScreenshot.FreeCRMTest@28feb3fa]" name="LoginByfacebook" duration-ms="14" started-at="2021-11-12T11:30:40Z" finished-at="2021-11-12T11:30:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginByfacebook -->
+        <test-method status="PASS" signature="teardown(org.testng.ITestResult)[pri:0, instance:testNgListenerExtentReportScreenshot.FreeCRMTest@28feb3fa]" name="teardown" is-config="true" duration-ms="879" started-at="2021-11-12T11:30:40Z" finished-at="2021-11-12T11:30:40Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=LoginByfacebook status=SUCCESS method=FreeCRMTest.LoginByfacebook()[pri:0, instance:testNgListenerExtentReportScreenshot.FreeCRMTest@28feb3fa] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:testNgListenerExtentReportScreenshot.FreeCRMTest@28feb3fa]" name="setup" is-config="true" duration-ms="2888" started-at="2021-11-12T11:30:40Z" finished-at="2021-11-12T11:30:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="FAIL" signature="freeCrmTitleTest()[pri:0, instance:testNgListenerExtentReportScreenshot.FreeCRMTest@28feb3fa]" name="freeCrmTitleTest" duration-ms="5469" started-at="2021-11-12T11:30:43Z" finished-at="2021-11-12T11:30:49Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [#1 Free CRM customer relationship management software cloud] but found [#1 Free CRM customer relationship management software cloud123]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [#1 Free CRM customer relationship management software cloud] but found [#1 Free CRM customer relationship management software cloud123]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertEquals(Assert.java:123)
+	at org.testng.Assert.assertEquals(Assert.java:176)
+	at org.testng.Assert.assertEquals(Assert.java:186)
+	at testNgListenerExtentReportScreenshot.FreeCRMTest.freeCrmTitleTest(FreeCRMTest.java:110)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:348)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:343)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:305)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:254)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- freeCrmTitleTest -->
+        <test-method status="PASS" signature="teardown(org.testng.ITestResult)[pri:0, instance:testNgListenerExtentReportScreenshot.FreeCRMTest@28feb3fa]" name="teardown" is-config="true" duration-ms="1220" started-at="2021-11-12T11:30:49Z" finished-at="2021-11-12T11:30:50Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=freeCrmTitleTest status=FAILURE method=FreeCRMTest.freeCrmTitleTest()[pri:0, instance:testNgListenerExtentReportScreenshot.FreeCRMTest@28feb3fa] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="endReport()[pri:0, instance:testNgListenerExtentReportScreenshot.FreeCRMTest@28feb3fa]" name="endReport" is-config="true" duration-ms="495" started-at="2021-11-12T11:30:50Z" finished-at="2021-11-12T11:30:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endReport -->
+      </class> <!-- testNgListenerExtentReportScreenshot.FreeCRMTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
