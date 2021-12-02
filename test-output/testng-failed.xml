@@ -3,15 +3,14 @@
 <suite name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="testNgListenerExtentReportScreenshot.FreeCRMTest">
+      <class name="testNGListenerreport.TestNgListnerReport">
         <methods>
-          <include name="freeCrmTitleTest"/>
-          <include name="teardown"/>
-          <include name="endReport"/>
-          <include name="setExtent"/>
-          <include name="setup"/>
+          <include name="afterClass"/>
+          <include name="beforeClass"/>
+          <include name="test_with_extentReporting"/>
+          <include name="loginByFacebook"/>
         </methods>
-      </class> <!-- testNgListenerExtentReportScreenshot.FreeCRMTest -->
+      </class> <!-- testNGListenerreport.TestNgListnerReport -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
